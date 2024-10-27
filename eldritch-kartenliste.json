@@ -1,0 +1,6519 @@
+[
+  {
+     "id":0,
+     "name":"Älterer Schlüssel",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":1,
+     "name":"Außerirdisches Gerät",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":2,
+     "name":"Beschwörungsstecken",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":3,
+     "name":"Bleiche Maske",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":4,
+     "name":"Chepesch des Abgrunds",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":5,
+     "name":"Cultes des Goules",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":6,
+     "name":"Das Buch der Toten",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":7,
+     "name":"Das leuchtende Trapezoeder",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":8,
+     "name":"Das schwarze Buch",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":9,
+     "name":"Der Gesang von Vach-Viraj",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":10,
+     "name":"Der König in Gelb",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":11,
+     "name":"Der schwarze Fächer",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":12,
+     "name":"Dhol-Gesänge",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":13,
+     "name":"De Vermis Mysteriis",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":14,
+     "name":"Drachengötze",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":15,
+     "name":"Eltdown-Scherben",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":16,
+     "name":"Flöte der äußeren Götter",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":17,
+     "name":"Fragmente von G'Harne",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":18,
+     "name":"Glas von Mortlan",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":19,
+     "name":"Groteske Statue",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":20,
+     "name":"Hemisphärenkarte",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":21,
+     "name":"Herz des Winters",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":22,
+     "name":"Hyperboräischer Kristall",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":23,
+     "name":"Knochenflöte",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":24,
+     "name":"Kreuz des Cykranosh",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":25,
+     "name":"Kristall der Älteren Wesen",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":26,
+     "name":"Lebenselixier",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":true,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":27,
+     "name":"Livre d'Ivon",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":28,
+     "name":"Löchrige Lumpen",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":29,
+     "name":"Maske des Sthenelus",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":30,
+     "name":"Maske des Wächters",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":31,
+     "name":"Massa di Requiem per Shuggay",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":32,
+     "name":"Mi-Go Gehirnbehälter",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":true,
+"waffe":false
+}  
+},
+  {
+     "id":33,
+     "name":"Milch von Shub-Niggurath",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":true,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":34,
+     "name":"Necronomicon",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":35,
+     "name":"Pharaonenzepter",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":36,
+     "name":"Pentakel der Ebenen",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":37,
+     "name":"Pnakotische Manuskripte",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":38,
+     "name":"Rubin von R'lyeh",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":39,
+     "name":"Säckchen der Leere",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":40,
+     "name":"Schatulle der Tore",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":41,
+     "name":"Schlangenkrone",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":42,
+     "name":"Schlüssel nach Carcose",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":43,
+     "name":"Schwert des Hieronymus",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":44,
+     "name":"Schwert von Y'ha-Talla",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":45,
+     "name":"Silberner Schlüssel",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":46,
+     "name":"Strahlenkanone",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":47,
+     "name":"Tikkoun-Elixier",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":true,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":48,
+     "name":"Traum-Kristallisator",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":true,
+"waffe":false
+}  
+},
+  {
+     "id":49,
+     "name":"T'tka Halot",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":50,
+     "name":"Verfluchte Sphäre",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":51,
+     "name":"Waagschalen des Thoth",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":52,
+     "name":"Wahre Magie",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":53,
+     "name":"Zanthu-Tafeln",
+     "deck":"Artefakt",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":54,
+     "name":"Agent Callahan",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":55,
+     "name":"Albert Wilmarth",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":56,
+     "name":"Altes Tagebuch",
+     "deck":"Besondere Unterstützung",
+     "variants":4,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":57,
+     "name":"Amery Wendy-Smith",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":58,
+     "name":"Anna Tilton",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":59,
+     "name":"Antike Schriftrolle",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":60,
+     "name":"Antikes Schwert",
+     "deck":"Besondere Unterstützung",
+     "variants":2,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":61,
+     "name":"Archäologische Forschung",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":62,
+     "name":"Asenath Waite",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":63,
+     "name":"Ass der Schwerter",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":true,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":64,
+     "name":"Auge der Dunkelheit",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":65,
+     "name":"Auge des Lichts",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":66,
+     "name":"Basil Elton",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":67,
+     "name":"Begrabt sie tief",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":68,
+     "name":"Beschwörung der Elemente",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":69,
+     "name":"Bis an die Grenzen",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":70,
+     "name":"Bruchstücke einer Steintafel",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":71,
+     "name":"Constance Hawberk",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":72,
+     "name":"Corinna Jones",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":73,
+     "name":"Danforth",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":74,
+     "name":"Das Blatt wenden",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":75,
+     "name":"Das Wissen der alten Meister",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":76,
+     "name":"Der Bote",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":77,
+     "name":"Der Mond XVIII",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":true,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":78,
+     "name":"Der Tod XIII",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":true,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":79,
+     "name":"Dimensionale Studien",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":80,
+     "name":"Dr. Ali Kafour",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":81,
+     "name":"Dr. Hiram Upham",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":82,
+     "name":"Duke",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":83,
+     "name":"Enoch Bowen",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":84,
+     "name":"Erich Weiss",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":85,
+     "name":"Esteban Herrero",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":86,
+     "name":"Etienne-Laurent",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":87,
+     "name":"Faszinierende Götterstatue",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":88,
+     "name":"Fluxstabilisator",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":89,
+     "name":"Finullzierung der Mission",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":90,
+     "name":"Fossilien",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":91,
+     "name":"Fünf der Münzen",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":true,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":92,
+     "name":"Für das Wohl aller",
+     "deck":"Besondere Unterstützung",
+     "variants":6,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":93,
+     "name":"Gebet",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":94,
+     "name":"Geheimakten der Ermittlungsbehörde",
+     "deck":"Besondere Unterstützung",
+     "variants":4,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":95,
+     "name":"Geheimnisvolle Statue",
+     "deck":"Besondere Unterstützung",
+     "variants":6,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":96,
+     "name":"Halpin Chalmers",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":97,
+     "name":"Heiliges Symbol",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":98,
+     "name":"Henry Wilcox",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":99,
+     "name":"Hildred Castaigne",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":100,
+     "name":"Holzpuppe",
+     "deck":"Besondere Unterstützung",
+     "variants":2,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":101,
+     "name":"Jack Brady",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":102,
+     "name":"Jake Williams",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":103,
+     "name":"Juwelenbesetzter Skarabäus",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":104,
+     "name":"Kanopenkrug",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":105,
+     "name":"Kenne deinen Feind",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":106,
+     "name":"Kid O'Brien",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":107,
+     "name":"Kodex des Mythos",
+     "deck":"Besondere Unterstützung",
+     "variants":4,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":108,
+     "name":"Kryptischer Text",
+     "deck":"Besondere Unterstützung",
+     "variants":4,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":109,
+     "name":"Kurierfahrt",
+     "deck":"Besondere Unterstützung",
+     "variants":8,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":110,
+     "name":"Licht der Vernunft",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":111,
+     "name":"Miss Doyle",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":112,
+     "name":"Öffentlichkeitsarbeit",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":113,
+     "name":"Oma Orne",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":114,
+     "name":"Opfer müssen gebracht werden",
+     "deck":"Besondere Unterstützung",
+     "variants":6,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":115,
+     "name":"Pater Merluzzo",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":116,
+     "name":"Perfektion der Kunst",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":117,
+     "name":"Pharaonenmaske",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":118,
+     "name":"Professor Armitage",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":119,
+     "name":"Professor Morgan",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":120,
+     "name":"Professor Rice",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":121,
+     "name":"Proviant",
+     "deck":"Besondere Unterstützung",
+     "variants":4,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":122,
+     "name":"Randolph Carter",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":123,
+     "name":"Reinigt die Erde",
+     "deck":"Besondere Unterstützung",
+     "variants":6,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":124,
+     "name":"Reise auf den Ley-Linien",
+     "deck":"Besondere Unterstützung",
+     "variants":6,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":125,
+     "name":"Sir William Brinton",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":126,
+     "name":"Schatzkarte",
+     "deck":"Besondere Unterstützung",
+     "variants":4,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":127,
+     "name":"Steinkalender",
+     "deck":"Besondere Unterstützung",
+     "variants":2,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":128,
+     "name":"Steintafel",
+     "deck":"Besondere Unterstützung",
+     "variants":6,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":129,
+     "name":"Steintruhe",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":130,
+     "name":"Unsagbare Recherchen",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":131,
+     "name":"Verbannung der Großen Alten",
+     "deck":"Besondere Unterstützung",
+     "variants":6,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":132,
+     "name":"Verfluchte Steintafel",
+     "deck":"Besondere Unterstützung",
+     "variants":2,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":133,
+     "name":"Verlockung der Finsternis",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":134,
+     "name":"Verlorener Schatz",
+     "deck":"Besondere Unterstützung",
+     "variants":2,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":135,
+     "name":"Verzierter Skarabäus",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":136,
+     "name":"Vier der Kelche",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":true,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":137,
+     "name":"Wellen der Vernichtung",
+     "deck":"Besondere Unterstützung",
+     "variants":3,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":138,
+     "name":"William Dyer",
+     "deck":"Besondere Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":true,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":139,
+     "name":"18er Derringer",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":140,
+     "name":"25er Automatik",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":141,
+     "name":"32er Colt Taschenpistole",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":142,
+     "name":"38er Revolver",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":143,
+     "name":"45er Automatik",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":144,
+     "name":"45er Revolver",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":145,
+     "name":"Abendschule",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":146,
+     "name":"Agentin des Syndikats",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":147,
+     "name":"Ahnenforschung",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":148,
+     "name":"Alchemistisches Gebräu",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":149,
+     "name":"Älteres Zeichen",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":150,
+     "name":"Altes Manuskript",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":151,
+     "name":"Ankh",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":152,
+     "name":"Appell an die Regierung",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":153,
+     "name":"Arkaner Foliant",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":154,
+     "name":"Arkane Schriften",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":155,
+     "name":"Arkanes Sutra",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":156,
+     "name":"Arkanist",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":157,
+     "name":"Ärztin der loge",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":158,
+     "name":"Astronomisches Handbuch",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":159,
+     "name":"Auf Streife",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":160,
+     "name":"Auftragskiller",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":161,
+     "name":"Auftragsmord",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":162,
+     "name":"Axt",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":163,
+     "name":"Blasphemisches Buch",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":164,
+     "name":"Buch der Geheimnisse",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":165,
+     "name":"Buch der Schrecken",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":166,
+     "name":"Charterflug",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":167,
+     "name":"Codex der Anderswelt",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":168,
+     "name":"Der alte Zauberladen",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":169,
+     "name":"Donnerbüchse",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":170,
+     "name":"Doppelläufige Schrotflinte",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":4,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":171,
+     "name":"Düstere Enzyklopädie",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":172,
+     "name":"Dynamit",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":173,
+     "name":"Eigensinniger Aristokrat",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":4,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":174,
+     "name":"Einsatzbesprechung",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":175,
+     "name":"Erfolgreicher Schriftsteller",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":176,
+     "name":"Expeditionsführer",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":177,
+     "name":"Expeditionskarte",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":178,
+     "name":"Experte",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":179,
+     "name":"Feiner Zwirn",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":180,
+     "name":"Festmahl",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":181,
+     "name":"Fischernetz",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":182,
+     "name":"Flammenwerfer",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":4,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":183,
+     "name":"Forscher der Loge",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":184,
+     "name":"Frisches Obst",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":185,
+     "name":"Funkübertragung",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":true,
+"waffe":false
+}  
+},
+  {
+     "id":186,
+     "name":"Gatling-Repetiergeschütz",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":4,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":187,
+     "name":"Gedungener Schläger",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":188,
+     "name":"Geheimagentin",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":4,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":189,
+     "name":"Geheimdienstbericht",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":190,
+     "name":"Geheime Seite",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":191,
+     "name":"Geheimnisvolle Kopfgeldjägerin",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":192,
+     "name":"Geheimnisvolle Schriftrolle",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":193,
+     "name":"Geheimnisvolles Zauberbuch",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":194,
+     "name":"Geisterdolch",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":195,
+     "name":"Geliebtes Andenken",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":196,
+     "name":"Gerüchteküche",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":197,
+     "name":"Gesandter des Vatikans",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":198,
+     "name":"Glücksring",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":199,
+     "name":"Glückstalisman",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":200,
+     "name":"Glückswürfel",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":201,
+     "name":"Glücks-Zigarettenetui",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":202,
+     "name":"Gotteshaus",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":203,
+     "name":"Grausiger Talisman",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":204,
+     "name":"Grausiges Totem",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":205,
+     "name":"Groteskes Kompendium",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":4,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":206,
+     "name":"Handschellen",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":207,
+     "name":"Hasenpfote",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":208,
+     "name":"Hauptkommissar",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":209,
+     "name":"Heilige Klinge",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":210,
+     "name":"Heilige Lanze",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":211,
+     "name":"Investition",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":212,
+     "name":"Jäger der Loge",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":4,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":213,
+     "name":"Jünger der Loge",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":4,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":214,
+     "name":"Kamera",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":215,
+     "name":"Karabiner",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":216,
+     "name":"Karte der Ley-Linien",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":4,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":217,
+     "name":"Kerosin",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":218,
+     "name":"Kettensäge",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":219,
+     "name":"King James Bibel",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":220,
+     "name":"Klinge des Schwertmeisters",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":221,
+     "name":"Kluger Forscher",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":222,
+     "name":"Kostbares Geschmeide",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":223,
+     "name":"Kruzifix",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":224,
+     "name":"Kümmelblättchen",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":225,
+     "name":"Kurier gesucht!",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":226,
+     "name":"Laterne",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":227,
+     "name":"Leibwache",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":228,
+     "name":"Lupe",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":229,
+     "name":"Magische Klinge",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":230,
+     "name":"Magischer Bogen",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":231,
+     "name":"Magische Schriftrolle",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":232,
+     "name":"Maschinenpistole",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":233,
+     "name":"Mauser C96",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":234,
+     "name":"Medizinische Fachzeitschrift",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":235,
+     "name":"Medizinmann",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":236,
+     "name":"Meisterdiebin",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":237,
+     "name":"Mineralogische Forschung",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":238,
+     "name":"Monsterjäger",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":239,
+     "name":"Museumsdirektor (3)",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":240,
+     "name":"Museumsdirektor (4)",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":4,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":241,
+     "name":"Mystischer Foliant",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":242,
+     "name":"Mysteriöses Buch",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":243,
+     "name":"Mystische Schriftrolle",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":244,
+     "name":"Observierung der Ermittlungsbehörde",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":245,
+     "name":"Okkulte Schrift (2)",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":246,
+     "name":"Okkulte Schrift (3)",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":247,
+     "name":"Okkultes Tableau",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":248,
+     "name":"Okkultist",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":249,
+     "name":"Opus Arcana",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":250,
+     "name":"Paketdienst",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":true,
+"waffe":false
+}  
+},
+  {
+     "id":251,
+     "name":"Peitsche",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":252,
+     "name":"Persönliche Assistentin",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":253,
+     "name":"Privatdetektiv",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":254,
+     "name":"Private Krankenpflege",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":255,
+     "name":"Privatflug",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":256,
+     "name":"Polizeiakten",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":257,
+     "name":"Polizeiliche Hilfe",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":258,
+     "name":"Polizei-Razzia",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":259,
+     "name":"Psychoanalytiker",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":260,
+     "name":"Raritätenladen",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":4,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":261,
+     "name":"Rätselkästchen",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":262,
+     "name":"Recherche im Archiv",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":263,
+     "name":"Ritual der Silberloge",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":264,
+     "name":"Ritualdolch",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":265,
+     "name":"Ritualkerzen",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":266,
+     "name":"Säuberung",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":4,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":267,
+     "name":"Schartiges Breitschwert",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":268,
+     "name":"Schatulle der Träume",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":269,
+     "name":"Schatzsucherin",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":4,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":270,
+     "name":"Schlüssel zu allen Türen",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":271,
+     "name":"Schmerztabletten",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":272,
+     "name":"Schutzamulett",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":273,
+     "name":"Schutztotem",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":274,
+     "name":"Schutzzeichen",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":275,
+     "name":"Sicherheitstrupp",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":276,
+     "name":"Spezialtraining",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":277,
+     "name":"Stadtführerin",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":4,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":278,
+     "name":"Sucht die Wahrheit",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":279,
+     "name":"Tagebuch eines Kultisten",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":280,
+     "name":"Tagebuch eines Schreibers",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":281,
+     "name":"Taschenuhr",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Klein",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":282,
+     "name":"Trainingsprogramm",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":283,
+     "name":"Tränengas",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":284,
+     "name":"Traumtagebuch",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":285,
+     "name":"Uralter Foliant",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":286,
+     "name":"Vampirtalisman",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":287,
+     "name":"Verbandszeug",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":288,
+     "name":"Verbotene Geheimnisse",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":289,
+     "name":"Verbotene Schriften",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":290,
+     "name":"Verchwörungstheoretiker",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":291,
+     "name":"Verzauberte Klinge",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":292,
+     "name":"Verzauberter Dolch",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":293,
+     "name":"Verzaubertes Geschmeide",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":true,
+"relikt":true,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":294,
+     "name":"Vorschlaghammer",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":295,
+     "name":"Wahrsagung",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":296,
+     "name":"Weihe",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":297,
+     "name":"Weihwasser",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":298,
+     "name":"Whiskey",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":299,
+     "name":"Winchester-Gewehr",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":300,
+     "name":"Wissbegieriger Student",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":301,
+     "name":"Zauberassistentin",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Verbündeter",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":302,
+     "name":"Zauberbuch",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":true,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":303,
+     "name":"Zauberstab",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":2,
+"magisch":true,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":true
+}  
+},
+  {
+     "id":304,
+     "name":"Zeitungsbericht (Auftrag)",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Auftrag",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":305,
+     "name":"Zeitungsbericht (Dienstleistung)",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Dienstleistung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":1,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":306,
+     "name":"Zu Gast bei der Silberloge",
+     "deck":"Unterstützung",
+     "variants":1,
+     "type":"Gegenstand",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":3,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":307,
+     "name":"Arkanes Wissen",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Ritual",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":308,
+     "name":"Byakhee herbeirufen",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Ritual",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":309,
+     "name":"Dimensionsportal",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Ritual",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":310,
+     "name":"Gewitter herbeirufen",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Ritual",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":311,
+     "name":"Giftiger Nebel",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Ritual",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":312,
+     "name":"Herbeirufung",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Ritual",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":313,
+     "name":"Monster herbeirufen",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Ritual",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":314,
+     "name":"Nähre den Geist",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Ritual",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":315,
+     "name":"Okkulte Erleuchtung",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Ritual",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":316,
+     "name":"Segen der isis",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Ritual",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":317,
+     "name":"Verbannung",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Ritual",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":318,
+     "name":"Vertrocknen",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Ritual",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":319,
+     "name":"Fesseln",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Beschwörung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":320,
+     "name":"Furchtbarer Fluch",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Beschwörung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":321,
+     "name":"Geisterklinge",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Beschwörung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":322,
+     "name":"Geistersturm",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Beschwörung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":323,
+     "name":"Heilende Worte",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Beschwörung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":324,
+     "name":"Hellsicht",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Beschwörung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":325,
+     "name":"Intervention",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Beschwörung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":true,
+"waffe":false
+}  
+},
+  {
+     "id":326,
+     "name":"Körperschutz",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Beschwörung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":327,
+     "name":"Nebel von Releh",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Beschwörung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":328,
+     "name":"Seelenschutz",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Beschwörung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":329,
+     "name":"Welken",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Beschwörung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":330,
+     "name":"Wrack",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Beschwörung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":331,
+     "name":"Astralreise",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Bezauberung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":332,
+     "name":"Azurblaue Flamme",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Bezauberung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":333,
+     "name":"Bezaubernde Anmut",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Bezauberung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":334,
+     "name":"Die Bestie in uns",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Bezauberung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":335,
+     "name":"Erzwungenes Lernen",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Bezauberung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":336,
+     "name":"Gedankenblick",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Bezauberung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":337,
+     "name":"Mal der isis",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Bezauberung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":338,
+     "name":"Schattenmantel",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Bezauberung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":339,
+     "name":"Spiel mit dem Schicksal",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Bezauberung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":340,
+     "name":"Stimme des Re",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Bezauberung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":341,
+     "name":"Tor aufspüren",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Bezauberung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+},
+  {
+     "id":342,
+     "name":"Waffe verzaubern",
+     "deck":"Zauber",
+     "variants":4,
+     "type":"Bezauberung",
+       "traits": 
+{
+       "buch":false,
+"charakter":false,
+"elixier":false,
+"kosten":null,
+"magisch":false,
+"relikt":false,
+"tarot":false,
+"teamwork":false,
+"waffe":false
+}  
+}
+]
