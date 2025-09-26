@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eldritch Horror Kartenverwalter</title>
+
+  <!-- INLINE CSS: wird durch build.js ersetzt -->
+  <style>
+    /* Allgemeine Stile */
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f4f0e6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin: 20px 0;
+      color: #3a3a3a;
+    }
+
+    h3 {
+      margin-top: 10px;
+      color: #3a3a3a;
+      font-size: 1.5rem;
+    }
+
+    /* Button-Gruppe */
+    .button-group {
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      border: 1px solid #3a3a3a;
+      background-color: #3e7b91;
+      color: #fff;
+      cursor: pointer;
+      font-size: 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #356676;
+    }
+
+    button:disabled {
+      background-color: #d3d3d3;
+      cursor: not-allowed;
+    }
+
+    button.highlight {
+      background-color: #2d6a4f;
+      color: #ffffff;
+      border: 1px solid #1b4332;
+      transition: background-color 0.3s ease;
+    }
+
+    button.highlight:hover {
+      background-color: #40916c;
+    }
+
+    /* Checkbox */
+    label {
+      display: inline-flex;
+      align-items: center;
+      font-size: 1rem;
+      margin-right: 10px;
+    }
+
+    label input {
+      margin-right: 5px;
+    }
+
+    /* Tabs */
+    .tab-container {
+      margin: 20px auto;
+      max-width: 800px;
+    }
+
+    .tab-buttons {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .tab-button {
+      flex: 1;
+      padding: 10px 0;
+      text-align: center;
+      background-color: #eae6da;
+      border: 1px solid #3a3a3a;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .tab-button.active {
+      background-color: #3e7b91;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .tab-content {
+      display: none;
+      border: 1px solid #3a3a3a;
+      padding: 15px;
+      background-color: #fff;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li.card-item {
+      padding: 8px 10px;
+      margin: 5px 0;
+      border: 1px solid #3a3a3a;
+      background-color: #eae6da;
+      cursor: pointer;
+    }
+
+    li.card-item.selected {
+      background-color: #3e7b91;
+      color: #fff;
+    }
+
+    /* Formular und Filter */
+    .form-field {
+      margin: 10px 0;
+    }
+
+    .checkbox-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    input[type="text"],
+    select {
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #3a3a3a;
+      border-radius: 4px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    /* Letzte gezogene Karten */
+    .last-drawn-section {
+      margin: 20px auto;
+      max-width: 800px;
+    }
+
+    .last-drawn-container {
+      border: 1px solid #3a3a3a;
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #fff;
+    }
+
+    .last-drawn-container.empty {
+      color: #888;
+    }
+
+    .last-drawn-container p {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    /* Vorschlags-Container */
+    .suggestions-container {
+      position: absolute;
+      background-color: #fff;
+      border: 1px solid #3a3a3a;
+      z-index: 10;
+      max-width: 400px;
+    }
+
+    .suggestion-item {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    .suggestion-item:hover {
+      background-color: #3e7b91;
+      color: #fff;
+    }
+
+    /* Dialog-Overlay */
+    #dialogOverlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1000;
+    }
+
+    #drawDialog,
+    #confirmationDialog {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #3a3a3a;
+      z-index: 1010;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    #drawDialog button,
+    #confirmationDialog button {
+      margin: 10px 5px 0 0;
+      padding: 8px 12px;
+    }
+
+    /* Overlay über den ganzen Viewport */
+    #dialogOverlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1000;
+    }
+
+    /* Basisstil für alle Dialog‐Container */
+    #confirmationDialog,
+    #drawDialog {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #3a3a3a;
+      z-index: 1001;
+      max-width: 400px;
+      width: 90%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      border-radius: 6px;
+    }
+
+    /* Buttons im Bestätigungsdialog nebeneinander */
+    .dialog-buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    /* Einfache Hover‐Effekte */
+    #confirmationDialog button,
+    #drawDialog button {
+      padding: 8px 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    #confirmYesButton {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    #confirmNoButton {
+      background-color: #f44336;
+      color: #fff;
+    }
+
+    #confirmYesButton:hover {
+      background-color: #45a049;
+    }
+
+    #confirmNoButton:hover {
+      background-color: #d32f2f;
+    }
+
+    #closeDrawDialogButton {
+      background-color: #3e7b91;
+      color: #fff;
+    }
+
+    #closeDrawDialogButton:hover {
+      background-color: #356676;
+    }
+
+    /* 1. Alle Kartentyp-Checkboxen ausblenden */
+    #cardTypeCheckboxes label {
+      display: none;
+    }
+
+    /* 2. Alle Trait-Checkboxen ausblenden */
+    #traitCheckboxes label {
+      display: none;
+    }
+
+    /* 3. Alle Kosten-Checkboxen ausblenden */
+    #costCheckboxes label {
+      display: none;
+    }
+
+    /* 4. Traits-Container initial ausblenden (wird bei Bedarf via JS auf block gesetzt) */
+    #traitsContainer {
+      display: none;
+    }
+
+    /* 5. Kosten-Container initial ausblenden (nur bei deck="unterstützung" sichtbar) */
+    #costContainer {
+      display: none;
+    }
+
+    /* 1. Vollflächiges Overlay hinter dem Dialog */
+    .dialog-backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
+      /* halbtransparenter schwarzer Hintergrund */
+      z-index: 999;
+      /* eine Stufe unter dem Dialog selbst */
+      display: none;
+      /* wird per JS/JS-Klasse eingeblendet */
+    }
+
+    /* 2. Grundlegendes Styling für den Dialog */
+    .dialog {
+      position: fixed;
+      /* aus dem normalen Dokumentfluss heraus */
+      top: 50%;
+      /* 50 % von oben */
+      left: 50%;
+      /* 50 % von links */
+      transform: translate(-50%, -50%);
+      /* exakt zentrieren */
+      background: #ffffff;
+      /* weißer Hintergrund */
+      padding: 1.5rem;
+      /* etwas Innenabstand */
+      border-radius: 0.5rem;
+      /* abgerundete Ecken */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      max-width: 90vw;
+      /* nicht über 90 % der Bildschirmbreite gehen */
+      width: 400px;
+      /* feste Breite (kann nach Bedarf angepasst werden) */
+      z-index: 1000;
+      /* direkt über dem Backdrop */
+    }
+
+    /* 3. „hidden“-Klasse versteckt sowohl Dialog als auch Overlay */
+    .hidden {
+      display: none;
+    }
+
+    /* 4. Zusätzliche Stile (optional) */
+    .dialog h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      text-align: center;
+    }
+
+    .dialog .game-list {
+      list-style: none;
+      padding-left: 0;
+      max-height: 200px;
+      overflow-y: auto;
+      margin: 1rem 0;
+    }
+
+    .dialog .dialog-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1rem;
+    }
+
+    .dialog button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 0.25rem;
+      cursor: pointer;
+    }
+
+    .dialog button#newGameButton {
+      background-color: #2d8cf0;
+      color: white;
+    }
+
+    .dialog button#cancelGameSelectionButton {
+      background-color: #e0e0e0;
+      color: #333;
+    }
+
+    li.card-item {
+      padding: 8px 10px;
+      margin: 5px 0;
+      border: 1px solid #3a3a3a;
+      background-color: #eae6da;
+      cursor: pointer;
+    }
+
+    li.card-item.selected {
+      background-color: #3e7b91;
+      color: #fff;
+    }
+
+    /* Overlay-Hintergrund */
+    .dialog-backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+      display: none;
+      /* per JS einblendbar */
+    }
+
+    /* Basisstil für alle Dialog-Container */
+    .dialog {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #ffffff;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      max-width: 90vw;
+      width: 400px;
+      z-index: 1000;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- App-Root -->
+  <div id="app"></div>
+
+  <script>(()=>{var a={currentGameId:null,filterCriteria:{tab:"nachziehstapel",name:"",deck:"artefakt",cardTypes:[],traits:[],cost:[]},selectedCardId:null,allCards:{},filteredCards:{},cachedGameData:{},elements:{tabs:{},filterInputs:{},lists:{},dialogs:{}}};function pe(){let e=a.elements;e.appRoot=document.getElementById("app"),e.gameNameElement=document.getElementById("currentGameName"),e.tabButtons=document.querySelectorAll(".tab-button"),e.tabContents=document.querySelectorAll(".tab-content ul"),e.cardNameInput=document.getElementById("cardName"),e.suggestionsContainer=document.getElementById("suggestionsContainer"),e.cardDeck=document.getElementById("cardDeck"),e.filterContainer=document.getElementById("filterContainer"),e.moveAllCheckbox=document.getElementById("moveAllCheckbox"),e.cardTypeGroup=document.getElementById("cardTypeCheckboxes"),e.traitGroup=document.getElementById("traitCheckboxes"),e.costGroup=document.getElementById("costCheckboxes"),e.traitsContainer=document.getElementById("traitsContainer"),e.costContainer=document.getElementById("costContainer"),e.filterInputs={name:e.cardNameInput,deck:e.cardDeck,suggestions:e.suggestionsContainer,typeGroup:e.cardTypeGroup,traitGroup:e.traitGroup,costGroup:e.costGroup,traitsContainer:e.traitsContainer,costContainer:e.costContainer},e.nachziehstapelList=document.getElementById("nachziehstapelList"),e.ablagestapelList=document.getElementById("ablagestapelList"),e.imspielList=document.getElementById("imspielList"),e.lists={nachzieh:e.nachziehstapelList,ablage:e.ablagestapelList,imspiel:e.imspielList,lastDrawn:{artefakt:document.getElementById("lastDrawn-artefakt"),unterst\u00FCtzung:document.getElementById("lastDrawn-unterst\xFCtzung"),"besondere-unterst\xFCtzung":document.getElementById("lastDrawn-besondere-unterst\xFCtzung"),zauber:document.getElementById("lastDrawn-zauber"),zustand:document.getElementById("lastDrawn-zustand")}},e.drawCardButton=document.getElementById("drawCardButton"),e.discardCardButton=document.getElementById("discardCardButton"),e.removeCardButton=document.getElementById("removeCardButton"),e.highlightButtons=[e.drawCardButton,e.discardCardButton,e.removeCardButton].filter(Boolean),e.overlay=document.getElementById("dialogOverlay"),e.confirmationDialog=document.getElementById("confirmationDialog"),e.confirmationMessage=document.getElementById("confirmationMessage"),e.confirmYesButton=document.getElementById("confirmYesButton"),e.confirmNoButton=document.getElementById("confirmNoButton"),e.drawDialog=document.getElementById("drawDialog"),e.closeDrawDialogButton=document.getElementById("closeDrawDialogButton"),e.drawnCardName=document.getElementById("drawnCardName"),e.drawnDeckName=document.getElementById("drawnDeckName"),e.drawnTabName=document.getElementById("drawnTabName"),e.gameSelectionBackdrop=document.getElementById("gameSelectionBackdrop"),e.gameSelectionDialog=document.getElementById("gameSelectionDialog"),e.gameSelectionList=document.getElementById("gameSelectionList"),e.loadSelectedGameButton=document.getElementById("loadSelectedGameButton"),e.deleteSelectedGameButton=document.getElementById("deleteSelectedGameButton"),e.newGameDialogButton=document.getElementById("newGameDialogButton"),e.cancelGameSelectionButton=document.getElementById("cancelGameSelectionButton"),e.lastDrawnSection=document.querySelector(".last-drawn-section")}var ee={artefakt:["Buch","Elixier","Magisch","Relikt","Teamwork","Waffe"],unterst\u00FCtzung:["Buch","Magisch","Relikt","Teamwork","Waffe"],"besondere-unterst\xFCtzung":["Buch","Charakter","Magisch","Relikt","Tarot","Waffe"],zustand:["Einfach"]},R={cardType:"cardTypes",traits:"traits",cost:"cost"};var fe={apiKey:"AIzaSyDp3Ra-tYG8HP8M7uHf4Fzc9KEz4BLRY_s",authDomain:"eldritch-kartenmanagement.firebaseapp.com",databaseURL:"https://eldritch-kartenmanagement-default-rtdb.europe-west1.firebasedatabase.app",projectId:"eldritch-kartenmanagement",storageBucket:"eldritch-kartenmanagement.appspot.com",messagingSenderId:"880657807499",appId:"1:880657807499:web:f8e48698b3277227f67c8e"},te=fe.apiKey,B=fe.databaseURL;var k=null,ge="ehk_auth_v1";function O(){return Math.floor(Date.now()/1e3)}function Ae(){try{let e=localStorage.getItem(ge);if(!e)return;let t=JSON.parse(e);t&&t.idToken&&t.expiresAt&&t.expiresAt-O()>30&&(k=t)}catch{}}function ne(){try{localStorage.setItem(ge,JSON.stringify(k))}catch{}}async function Ue(e,t){let n=await fetch(e,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(t)});if(!n.ok){let r=await n.text();throw new Error(`${e} \u2013 ${r}`)}return n.json()}async function he(){if(!k)return;let e=30;if(k.expiresAt-O()>e)return;let t=`https://securetoken.googleapis.com/v1/token?key=${encodeURIComponent(te)}`,n=await fetch(t,{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:new URLSearchParams({grant_type:"refresh_token",refresh_token:k.refreshToken})});if(!n.ok){k=null,ne();return}let r=await n.json();k.idToken=r.id_token,k.refreshToken=r.refresh_token||k.refreshToken,k.localId=r.user_id||k.localId,k.expiresAt=O()+parseInt(r.expires_in||"3600",10),ne()}async function x(){if(k||Ae(),await he(),k)return k;let e=`https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${encodeURIComponent(te)}`,t=await Ue(e,{returnSecureToken:!0});return k={idToken:t.idToken,refreshToken:t.refreshToken,localId:t.localId,expiresAt:O()+parseInt(t.expiresIn||"3600",10)},ne(),k}async function D(){return k||await x(),await he(),k?.idToken||null}function ye(){let e=a.elements;e.gameSelectionBackdrop.classList.remove("hidden"),e.gameSelectionDialog.classList.remove("hidden")}function M(){let e=a.elements;e.gameSelectionBackdrop.classList.add("hidden"),e.gameSelectionDialog.classList.add("hidden")}function ae(e){let t=a.elements;if(t.gameSelectionList.innerHTML="",Object.entries(e).forEach(([n,r])=>{let o=document.createElement("li");o.textContent=r.name||n,o.dataset.gameId=n,o.classList.add("card-item"),o.addEventListener("click",()=>{t.gameSelectionList.querySelectorAll("li").forEach(i=>i.classList.remove("selected")),o.classList.add("selected"),t.loadSelectedGameButton.disabled=!1,t.deleteSelectedGameButton.disabled=!1}),t.gameSelectionList.appendChild(o)}),Object.keys(e).length===0){let n=document.createElement("li");n.textContent="Keine gespeicherten Spiele gefunden.",n.classList.add("card-item"),n.style.cursor="default",n.style.opacity="0.6",t.gameSelectionList.appendChild(n),t.loadSelectedGameButton.disabled=!0,t.deleteSelectedGameButton.disabled=!0}}function Ce(e,t){let n=document.createElement("div");return n.classList.add("suggestion-item"),n.textContent=t.name,n.dataset.cardId=e,n}function oe(e){let t=a.elements;return new Promise(n=>{t.confirmationMessage.textContent=e,t.overlay.style.display="block",t.confirmationDialog.style.display="block";function r(){t.overlay.style.display="none",t.confirmationDialog.style.display="none",t.confirmYesButton.removeEventListener("click",o),t.confirmNoButton.removeEventListener("click",i),t.overlay.removeEventListener("click",l)}function o(){r(),n(!0)}function i(){r(),n(!1)}function l(u){u.target===t.overlay&&(r(),n(!1))}t.confirmYesButton.addEventListener("click",o),t.confirmNoButton.addEventListener("click",i),t.overlay.addEventListener("click",l)})}function be(e,t,n){let{overlay:r,drawDialog:o,closeDrawDialogButton:i,drawnCardName:l,drawnDeckName:u,drawnTabName:s}=a.elements;l.textContent=e||"Unbekannte Karte",u.textContent=t||"Unbekanntes Deck",s.textContent=n||"Unbekannter Stapel",r.style.display="block",o.style.display="block";function p(){r.style.display="none",o.style.display="none",i.removeEventListener("click",p),r.removeEventListener("click",m)}function m(f){f.target===r&&p()}i.addEventListener("click",p),r.addEventListener("click",m)}async function ke(e,t){let n=await fetch(`${B}${e}.json?auth=${encodeURIComponent(t)}`);if(!n.ok)throw new Error(`GET ${e}: ${await n.text()}`);return n.json()}async function we(e,t,n){let r=await fetch(`${B}${e}.json?auth=${encodeURIComponent(n)}`,{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify(t)});if(!r.ok)throw new Error(`PUT ${e}: ${await r.text()}`);return r.json()}async function Ke(e,t,n,r=1){if(!a.currentGameId){console.warn("Kein aktuelles Spiel festgelegt.");return}await x();let o=await D(),i=`/Spiele/${a.currentGameId}/Karten`,l=`${i}/${t}/${e}`,u=`${i}/${n}/${e}`,s=0;try{if(s=(await ke(l,o)||{}).variants||0,s===0){console.warn(`Karte ${e} existiert nicht im Stapel ${t} oder hat 0 Varianten.`);return}}catch(m){console.error(`Fehler beim Lesen von ${e} in ${t}:`,m);return}let p=r===-1?s:Math.abs(r);if(s<p){console.warn(`Nicht gen\xFCgend Varianten im Stapel ${t}.`);return}try{await we(l,{variants:s-p},o)}catch(m){console.error(`Fehler beim Aktualisieren von ${e} in ${t}:`,m);return}try{let f=(await ke(u,o)||{}).variants||0;await we(u,{variants:f+p},o)}catch(m){console.error(`Fehler beim Schreiben von ${e} in ${n}:`,m)}}async function je(){let e=Object.keys(a.filteredCards||{});if(e.length===0)return console.warn("Es gibt keine Karten in der gefilterten Liste."),null;let t=Math.floor(Math.random()*e.length);return e[t]}async function Ee(e){if(!e||typeof e!="string")return console.error("Ung\xFCltiger Tab-Name:",e),{};let t=a.cachedGameData?.Karten?.[e]||{};return Object.keys(t).length===0&&console.warn(`Keine Karten im Tab "${e}" gefunden.`),t}async function re(e){let t=a.elements,n,r=a.filterCriteria.tab;if(r==="nachziehstapel"?n=t.nachziehstapelList:r==="ablagestapel"?n=t.ablagestapelList:r==="imspiel"&&(n=t.imspielList),console.log("[DBG] setSelectedCard() start:",{tab:r,cardId:e,listFound:!!n}),n)if(n.querySelectorAll("li").forEach(o=>o.classList.remove("selected")),e){let o=n.querySelector(`li[data-card-id="${e}"]`);console.log("[DBG] setSelectedCard() item found?",!!o),o?(o.classList.add("selected"),a.selectedCardId=e):a.selectedCardId=null}else a.selectedCardId=null;A(),console.log("[DBG] setSelectedCard() end; selected=",a.selectedCardId)}async function F(e){let{tab:t,deck:n}=a.filterCriteria;if(!{ziehen:["nachziehstapel","ablagestapel"],abwerfen:["nachziehstapel","imspiel"],entfernen:["nachziehstapel","ablagestapel","imspiel"]}[e].includes(t))return;let o=!a.selectedCardId,i=a.elements.moveAllCheckbox.checked,l=i?Object.keys(a.filteredCards||{}):[a.selectedCardId||await je()].filter(Boolean);if(!l.length)return;let u={ziehen:"imspiel",abwerfen:"ablagestapel",entfernen:"destroyed"}[e];if(!(e==="entfernen"&&!o&&!i&&!await oe(`Wirklich ${a.allCards[a.selectedCardId].name} entfernen?`))&&!(i&&!await oe(`Wirklich alle ${l.length} Karten ${e==="ziehen"?"ziehen":"abwerfen"}?`))){if(await Promise.all(l.map(s=>Ke(s,t,u,i?-1:1).then(()=>{(!i||o)&&ve(a.allCards[s],e)}).catch(p=>console.error(`Fehler beim Verschieben von ${s}:`,p)))),await C(),o&&!i){let s=a.allCards[l[0]];be(s?.name||"Unbekannt",n,t)}await re(null)}}function Be(e,t){let n={nachziehstapel:{},ablagestapel:{},imspiel:{},destroyed:{}};return new Set([...Object.keys(e||{}),...Object.keys(t||{})]).forEach(o=>{let i=(e||{})[o]||{},l=(t||{})[o]||{};new Set([...Object.keys(i),...Object.keys(l)]).forEach(s=>{let p=i[s]?.variants||0,m=l[s]?.variants||0;if(p!==m){let f=p>m?p-m:0,w=m>p?m-p:0;if(f>0){let d=Re(s,t,o);n[o][s]={from:o,to:d,variantsLost:f,variantsGained:w}}else w>0&&(n[o][s]={from:null,to:o,variantsLost:f,variantsGained:w})}})}),n}function Re(e,t,n){for(let[r,o]of Object.entries(t||{}))if(r!==n&&o?.[e]?.variants)return r;return null}function E(e){return e.normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-zA-Z0-9]/g,"").toLowerCase()}async function Ie(){let e=a.elements,t=e.suggestionsContainer,n=E(e.cardNameInput.value);if(a.filterCriteria.name=n,t.innerHTML="",t.classList.add("tooltip"),n.length===0){t.style.display="none",await C();return}let r=await Ee(a.filterCriteria.tab),o=Object.entries(a.allCards).filter(([i,l])=>{let u=r?.[i];return u&&u.variants>0&&l.normalizedName.includes(n)}).slice(0,10);o.length?(o.forEach(([i,l])=>{let u=Ce(i,l);t.appendChild(u)}),t.style.display="block"):t.style.display="none",await C()}function A(){let e=!!a.selectedCardId,t=!!a.elements.moveAllCheckbox?.checked;console.log("[DBG] toggleButtonHighlight",{isCardSelected:e,moveAllChecked:t}),(a.elements.highlightButtons||[]).forEach(n=>{e||t?n.classList.add("highlight"):n.classList.remove("highlight")})}function H(e){let t=a.elements.gameNameElement;t&&(t.textContent=`Aktuelles Spiel: ${e}`)}async function C(e){window.DEBUG?.mark("updateTabUI:start"),console.log("[DBG] updateTabUI:start",{tab:a.filterCriteria.tab,selected:a.selectedCardId,filteredHasSelected:!!a.selectedCardId&&!!a.filteredCards?.[a.selectedCardId],changes:!!e}),Object.keys(a.filteredCards).length===0&&console.warn("Keine Karten f\xFCr die Ansicht gefunden.");let{tab:t,deck:n,cardTypes:r,traits:o,name:i}=a.filterCriteria,l=a.filterCriteria.cost.map(f=>Number(f)),u=a.cachedGameData.Karten?.[t]||{},s;if(t==="nachziehstapel"?s=a.elements.nachziehstapelList:t==="ablagestapel"?s=a.elements.ablagestapelList:t==="imspiel"&&(s=a.elements.imspielList),!s){console.error(`Liste f\xFCr Tab "${t}" nicht gefunden.`);return}if(!(e?Object.keys(e[t]||{}).some(f=>a.filteredCards[f]):!0)){console.log("Keine relevanten \xC4nderungen f\xFCr die aktuelle UI. Aktualisierung \xFCbersprungen.");return}s.innerHTML="",a.filteredCards=Object.entries(a.allCards).reduce((f,[w,d])=>{let b=a.cachedGameData.Karten?.[t]?.[w];if(!b||b.variants<=0)return f;let y=E(n)===E(d.deck),I=i.trim()||r.length||o.length||l.length;if(y&&i.trim()&&(y=E(d.name).includes(E(i))),y&&r.length){let S=Array.isArray(d.type)?d.type:[d.type].filter(Boolean);y=r.some(G=>S.map(v=>v.toLowerCase()).includes(G.toLowerCase()))}return y&&o.length&&(y=Array.isArray(d.traits)&&o.some(S=>d.traits.includes(S))),y&&l.length&&(y=l.includes(d.cost)),y&&(f[w]=b),f},{});let m=Object.keys(a.filteredCards);if(m.length?m.forEach(f=>{let w=a.allCards[f],d=a.filteredCards[f],b=document.createElement("li");b.textContent=`${w.name} (x${d.variants})`,b.dataset.cardId=f,b.classList.add("card-item"),s.appendChild(b)}):s.innerHTML="<li>Keine Karten gefunden.</li>",a.selectedCardId&&a.filteredCards[a.selectedCardId]){let f=s.querySelector(`li[data-card-id="${a.selectedCardId}"]`);f&&f.classList.add("selected")}A(),window.DEBUG?.mark("updateTabUI:start"),console.log("[DBG] updateTabUI:start",{tab:a.filterCriteria.tab,selected:a.selectedCardId,filteredHasSelected:!!a.selectedCardId&&!!a.filteredCards?.[a.selectedCardId],changes:!!e})}function ve(e,t){let n=a.elements.lastDrawnSection;if(!n){console.warn("Die Sektion f\xFCr zuletzt gezogene Karten wurde nicht gefunden.");return}let r=`lastDrawn-${E(e.deck)}`,o=document.getElementById(r);o||(o=document.createElement("div"),o.id=r,o.classList.add("last-drawn-container"),n.appendChild(o)),e?o.innerHTML=`
+      <p>
+        <span class="card-name">${e.name}</span><br>
+        <span class="card-action">${t}</span>
+      </p>
+    `:o.innerHTML=`
+      <p class="empty">Keine Karten in diesem Stapel.</p>
+    `}async function L(){let e=a.filterCriteria.deck;document.querySelectorAll("#cardTypeCheckboxes label").forEach(o=>{let i=o.querySelector('input[type="checkbox"]');o.dataset.deck===e?o.style.display="inline-flex":(o.style.display="none",i&&(i.checked=!1))});let t=Array.isArray(ee[e])&&ee[e].length>0,n=document.getElementById("traitsContainer");document.querySelectorAll("#traitCheckboxes label").forEach(o=>{let i=o.querySelector('input[type="checkbox"]');t&&o.dataset.deck===e?o.style.display="inline-flex":(o.style.display="none",i&&(i.checked=!1))}),n.style.display=t?"block":"none";let r=document.getElementById("costContainer");document.querySelectorAll("#costCheckboxes label").forEach(o=>{let i=o.querySelector('input[type="checkbox"]');e==="unterst\xFCtzung"&&o.dataset.deck==="unterst\xFCtzung"?o.style.display="inline-flex":(o.style.display="none",i&&(i.checked=!1))}),r.style.display=e==="unterst\xFCtzung"?"block":"none"}async function Se(e){if(!["artefakt","unterst\xFCtzung","besondere-unterst\xFCtzung","zauber","zustand"].includes(e))return console.warn(`Ung\xFCltiges Deck: ${e}`),!1;a.filterCriteria.deck=e,console.log(`Aktuelles Deck gewechselt zu: ${e}`),await C(),await L()}async function ie(e){if(!["nachziehstapel","ablagestapel","imspiel","destroyed"].includes(e)){console.warn(`Ung\xFCltiger Tab: ${e}`);return}a.filterCriteria.tab=e,await C()}function xe(){document.querySelectorAll(".tab-button").forEach(e=>{e.addEventListener("click",()=>ie(e.dataset.tab))})}function Le(){console.log("[DBG] setupEventListeners");let e=a.elements;e.cardDeck=document.getElementById("cardDeck"),e.moveAllCheckbox=document.getElementById("moveAllCheckbox"),e.drawCardButton=document.getElementById("drawCardButton"),e.discardCardButton=document.getElementById("discardCardButton"),e.removeCardButton=document.getElementById("removeCardButton"),e.highlightButtons=[e.drawCardButton,e.discardCardButton,e.removeCardButton].filter(Boolean),e.filterContainer=document.getElementById("filterContainer"),e.suggestionsContainer=document.getElementById("suggestionsContainer"),e.cardNameInput=document.getElementById("cardName"),e.tabButtons=document.querySelectorAll(".tab-button"),e.tabContents=document.querySelectorAll(".tab-content ul"),e.nachziehstapelList=document.getElementById("nachziehstapelList"),e.ablagestapelList=document.getElementById("ablagestapelList"),e.imspielList=document.getElementById("imspielList"),e.drawDialog=document.getElementById("drawDialog"),e.dialogOverlay=document.getElementById("dialogOverlay"),e.confirmationDialog=document.getElementById("confirmationDialog"),e.confirmationMessage=document.getElementById("confirmationMessage"),e.confirmYesButton=document.getElementById("confirmYesButton"),e.confirmNoButton=document.getElementById("confirmNoButton"),e.drawnCardName=document.getElementById("drawnCardName"),e.drawnDeckName=document.getElementById("drawnDeckName"),e.drawnTabName=document.getElementById("drawnTabName"),e.closeDrawDialogButton=document.getElementById("closeDrawDialogButton"),e.gameNameElement=document.getElementById("currentGameName"),e.gameSelectionBackdrop=document.getElementById("gameSelectionBackdrop"),e.gameSelectionDialog=document.getElementById("gameSelectionDialog"),e.gameSelectionList=document.getElementById("gameSelectionList"),e.loadSelectedGameButton=document.getElementById("loadSelectedGameButton"),e.deleteSelectedGameButton=document.getElementById("deleteSelectedGameButton"),e.newGameDialogButton=document.getElementById("newGameDialogButton"),e.cancelGameSelectionButton=document.getElementById("cancelGameSelectionButton"),e.moveAllCheckbox.addEventListener("change",A),e.drawCardButton.addEventListener("click",()=>F("ziehen")),e.discardCardButton.addEventListener("click",()=>F("abwerfen")),e.removeCardButton.addEventListener("click",()=>F("entfernen")),e.cardDeck.addEventListener("change",async()=>{await Se(e.cardDeck.value)}),e.filterContainer.addEventListener("change",async t=>{let n=t.target;if(n.type==="checkbox"&&R.hasOwnProperty(n.name)){let r=R[n.name];n.checked?a.filterCriteria[r].push(n.value):a.filterCriteria[r]=a.filterCriteria[r].filter(o=>o!==n.value),await C()}}),e.suggestionsContainer.addEventListener("click",async t=>{if(t.target.classList.contains("suggestion-item")){let n=t.target.textContent;e.cardNameInput.value=n,a.filterCriteria.name=E(n),e.suggestionsContainer.innerHTML="",e.suggestionsContainer.style.display="none",await C()}}),e.tabButtons.forEach(t=>{t.addEventListener("click",async()=>{e.tabButtons.forEach(r=>r.classList.remove("active")),document.querySelectorAll(".tab-content").forEach(r=>r.classList.remove("active")),t.classList.add("active");let n=t.dataset.tab;document.getElementById(n).classList.add("active"),await ie(n)})}),e.tabContents.forEach(t=>{t.addEventListener("click",async n=>{let r=n.target.closest("li");if(!r||!t.contains(r))return;let o=r.dataset.cardId;console.log("[click]",{li:r,cardId:o,selected:a.selectedCardId}),await re(a.selectedCardId===o?null:o)})}),e.cardNameInput.addEventListener("input",Ie)}function T(e,t,n){if(!e)return console.warn("Kein Spiel ausgew\xE4hlt. Echtzeit-Updates nicht aktiviert."),()=>{};let r=!1,o=null,i=!0,l=null,u=1200,s=1500,p=8e3,m=s;async function f(){try{n||(await x(),n=await D());let d=`${B}/Spiele/${e}.json?auth=${encodeURIComponent(n)}`,b=await fetch(d,{method:"GET"});if(!b.ok){(b.status===401||b.status===403)&&(n=null);let S=await b.text();throw new Error(`GET ${d} \u2192 ${b.status}: ${S}`)}let y=await b.json(),I=JSON.stringify(y);if(I!==l){if(l=I,y==null)console.warn("Spielknoten existiert nicht oder wurde gel\xF6scht.");else if(i)a.cachedGameData=y,await C(),typeof t=="function"&&t(y,null),i=!1;else{let S=a.cachedGameData?.Karten||{},G=y.Karten||{},v=Be(S,G);a.cachedGameData=y,await C(v),typeof t=="function"&&t(y,v)}m=s}}catch(d){console.error("Realtime-Polling-Fehler:",d?.message||d),m=Math.min(p,Math.floor(m*1.6)),n=null}}async function w(){for(;!r;)await f(),await new Promise(d=>{o=setTimeout(d,i?0:m===s?u:m)})}return w(),()=>{r=!0,o&&clearTimeout(o)}}async function De(e,t){let n=await fetch(`${B}${e}.json?auth=${encodeURIComponent(t)}`);if(!n.ok)throw new Error(`GET ${e}: ${await n.text()}`);return n.json()}async function Oe(e,t,n){let r=await fetch(`${B}${e}.json?auth=${encodeURIComponent(n)}`,{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify(t)});if(!r.ok)throw new Error(`PUT ${e}: ${await r.text()}`);return r.json()}async function Me(e,t){let n=await fetch(`${B}/.json?auth=${encodeURIComponent(t)}`,{method:"PATCH",headers:{"Content-Type":"application/json"},body:JSON.stringify(e)});if(!n.ok)throw new Error(`PATCH /.json: ${await n.text()}`);return n.json()}async function P(e){await x();let t=await D(),n=await De("/Spiele",t)||{},r=e?.trim()||new Date().toLocaleDateString("de-DE"),o=Object.values(n).map(d=>d?.name).filter(Boolean),i=r,l=2;for(;o.includes(i);)i=`${r} (${l++})`;let u=Date.now().toString(),s=await De("/Karten",t);if(!s||typeof s!="object")return console.error("Keine Karten in der Datenbank gefunden. Spiel kann nicht erstellt werden."),null;let p=Object.entries(s).reduce((d,[b,y])=>(d[b]={variants:y?.variants??1},d),{}),m={};Object.keys(n).forEach(d=>{m[`Spiele/${d}/aktuell`]=!1}),Object.keys(m).length&&await Me(m,t);let f={name:i,aktuell:!0,Karten:{nachziehstapel:p}};await Oe(`/Spiele/${u}`,f,t),a.currentGameId=u,a.cachedGameData={Karten:{nachziehstapel:p}},a.allCards=Object.freeze(s),Object.values(a.allCards).forEach(d=>{d&&typeof d=="object"&&(d.normalizedName=E(d.name||""))});let w=T(u,d=>{},t);return a.stopRealtime=w,await C(),H(i),u}function Te(){typeof a.stopRealtime=="function"&&a.stopRealtime()}function Ge(){let e=document.getElementById("app"),t=document.createElement("h1");t.textContent="Kartenverwaltung",e.appendChild(t);let n=document.createElement("p");n.id="currentGameName",Object.assign(n.style,{textAlign:"center",fontSize:"0.9rem",color:"#666"}),e.appendChild(n);let r=document.createElement("div");r.className="tab-container",e.appendChild(r);let o=document.createElement("div");o.className="tab-buttons",r.appendChild(o),[{id:"nachziehstapel",label:"Nachziehstapel"},{id:"ablagestapel",label:"Ablagestapel"},{id:"imspiel",label:"Im Spiel"}].forEach((g,c)=>{let h=document.createElement("button");h.className="tab-button"+(c===0?" active":""),h.dataset.tab=g.id,h.textContent=g.label,o.appendChild(h)});let i=document.createElement("form");i.id="filterContainer",r.appendChild(i);let l=document.createElement("div");l.className="form-field",l.id="nameContainer",i.appendChild(l);let u=document.createElement("label");u.htmlFor="cardName",u.textContent="Name",l.appendChild(u);let s=document.createElement("input");s.type="text",s.id="cardName",s.placeholder="Kartenname",l.appendChild(s);let p=document.createElement("div");p.id="suggestionsContainer",p.className="suggestions-container",l.appendChild(p);let m=document.createElement("div");m.className="form-field",i.appendChild(m);let f=document.createElement("label");f.htmlFor="cardDeck",f.textContent="Kartenstapel",m.appendChild(f);let w=document.createElement("select");w.id="cardDeck",[{value:"artefakt",text:"Artefakt"},{value:"unterst\xFCtzung",text:"Unterst\xFCtzung"},{value:"besondere-unterst\xFCtzung",text:"Besondere Unterst\xFCtzung"},{value:"zauber",text:"Zauber"},{value:"zustand",text:"Zustand"}].forEach(g=>{let c=document.createElement("option");c.value=g.value,c.textContent=g.text,w.appendChild(c)}),m.appendChild(w);let d=document.createElement("div");d.className="form-field",i.appendChild(d);let b=document.createElement("label");b.textContent="Kartentyp",d.appendChild(b);let y=document.createElement("div");y.id="cardTypeCheckboxes",y.className="checkbox-group",d.appendChild(y),[{deck:"artefakt",value:"Gegenstand"},{deck:"artefakt",value:"Klein"},{deck:"unterst\xFCtzung",value:"Auftrag"},{deck:"unterst\xFCtzung",value:"Dienstleistung"},{deck:"unterst\xFCtzung",value:"Gegenstand"},{deck:"unterst\xFCtzung",value:"Klein"},{deck:"unterst\xFCtzung",value:"Verb\xFCndeter"},{deck:"besondere-unterst\xFCtzung",value:"Auftrag"},{deck:"besondere-unterst\xFCtzung",value:"Gegenstand"},{deck:"besondere-unterst\xFCtzung",value:"Klein"},{deck:"besondere-unterst\xFCtzung",value:"Verb\xFCndeter"},{deck:"zauber",value:"Beschw\xF6rung"},{deck:"zauber",value:"Bezauberung"},{deck:"zauber",value:"Ritual"},{deck:"zustand",value:"Einschr\xE4nkung"},{deck:"zustand",value:"Gef\xE4hrdung"},{deck:"zustand",value:"Geisteskrankheit"},{deck:"zustand",value:"Gunst"},{deck:"zustand",value:"Krankheit"},{deck:"zustand",value:"Talent"},{deck:"zustand",value:"Unheil"},{deck:"zustand",value:"Verfolgung"},{deck:"zustand",value:"Verletzung"},{deck:"zustand",value:"Vertrag"}].forEach(g=>{let c=document.createElement("label");c.dataset.deck=g.deck;let h=document.createElement("input");h.type="checkbox",h.name="cardType",h.value=g.value,c.appendChild(h),c.append(g.value),y.appendChild(c)});let I=document.createElement("div");I.id="traitsContainer",I.className="form-field",I.style.display="none",i.appendChild(I);let S=document.createElement("label");S.textContent="Traits:",I.appendChild(S);let G=document.createElement("div");G.id="traitCheckboxes",G.className="checkbox-group",I.appendChild(G);let v=document.createElement("div");v.id="costContainer",v.className="form-field",v.style.display="none",i.appendChild(v);let le=document.createElement("label");le.textContent="Kosten:",v.appendChild(le);let U=document.createElement("div");U.id="costCheckboxes",U.className="checkbox-group",v.appendChild(U),[0,1,2,3,4,5].forEach(g=>{let c=document.createElement("label");c.dataset.deck="unterst\xFCtzung";let h=document.createElement("input");h.type="checkbox",h.name="cost",h.value=String(g),c.appendChild(h),c.append(g),U.appendChild(c)});let K=document.createElement("div");K.className="button-group",r.appendChild(K);let _=document.createElement("label"),q=document.createElement("input");q.type="checkbox",q.id="moveAllCheckbox",_.appendChild(q),_.append(" Alle"),K.appendChild(_),[{id:"drawCardButton",text:"Ziehen"},{id:"discardCardButton",text:"Abwerfen"},{id:"removeCardButton",text:"Aus dem Spiel entfernen"}].forEach(g=>{let c=document.createElement("button");c.type="button",c.id=g.id,c.textContent=g.text,K.appendChild(c)}),["nachziehstapel","ablagestapel","imspiel"].forEach((g,c)=>{let h=document.createElement("div");h.id=g,h.className="tab-content"+(c===0?" active":"");let ue=document.createElement("ul");ue.id=g+"List",h.appendChild(ue),e.appendChild(h)});let j=document.createElement("div");j.className="last-drawn-section",e.appendChild(j);let ce=document.createElement("h3");ce.textContent="Letzte gezogene Karten",j.appendChild(ce),["artefakt","unterst\xFCtzung","besondere-unterst\xFCtzung","zauber","zustand"].forEach(g=>{let c=document.createElement("div");c.id=`lastDrawn-${g}`,c.className="last-drawn-container empty";let h=document.createElement("p");h.textContent="Keine Karten in diesem Stapel.",c.appendChild(h),j.appendChild(c)});let V=document.createElement("div");V.id="dialogOverlay",V.style.display="none",e.appendChild(V);let $=document.createElement("div");$.id="confirmationDialog",$.style.display="none";let de=document.createElement("p");de.id="confirmationMessage",$.appendChild(de);let Y=document.createElement("div");Y.className="dialog-buttons",[{id:"confirmYesButton",text:"Ja"},{id:"confirmNoButton",text:"Abbrechen"}].forEach(g=>{let c=document.createElement("button");c.id=g.id,c.textContent=g.text,Y.appendChild(c)}),$.appendChild(Y),e.appendChild($);let z=document.createElement("div");z.id="drawDialog",z.style.display="none";let me=document.createElement("h3");me.textContent="Karte gezogen",z.appendChild(me),[{label:"Karte:",id:"drawnCardName"},{label:"Deck:",id:"drawnDeckName"},{label:"Stapel:",id:"drawnTabName"}].forEach(g=>{let c=document.createElement("p");c.innerHTML=`<strong>${g.label}</strong> `;let h=document.createElement("span");h.id=g.id,c.appendChild(h),z.appendChild(c)});let J=document.createElement("button");J.id="closeDrawDialogButton",J.textContent="Schlie\xDFen",z.appendChild(J),e.appendChild(z);let W=document.createElement("div");W.id="gameSelectionBackdrop",W.className="dialog-backdrop hidden",e.appendChild(W);let N=document.createElement("div");N.id="gameSelectionDialog",N.className="dialog hidden";let Z=document.createElement("h2");Z.id="gameSelectionTitle",Z.textContent="W\xE4hle ein Spiel aus oder starte ein neues Spiel",N.appendChild(Z);let Q=document.createElement("ul");Q.id="gameSelectionList",Q.className="game-list",N.appendChild(Q);let X=document.createElement("div");X.className="dialog-buttons",[{id:"loadSelectedGameButton",text:"Spiel laden",disabled:!0},{id:"deleteSelectedGameButton",text:"Spiel l\xF6schen",disabled:!0},{id:"newGameDialogButton",text:"Neues Spiel"},{id:"cancelGameSelectionButton",text:"Abbrechen"}].forEach(g=>{let c=document.createElement("button");c.id=g.id,c.textContent=g.text,g.disabled&&(c.disabled=!0),X.appendChild(c)}),N.appendChild(X),e.appendChild(N)}async function ze(e,t){let n=await fetch(`${B}${e}.json?auth=${encodeURIComponent(t)}`);if(!n.ok)throw new Error(`GET ${e}: ${await n.text()}`);return n.json()}async function Fe(e,t){let n=await fetch(`${B}${e}.json?auth=${encodeURIComponent(t)}`,{method:"DELETE"});if(!n.ok)throw new Error(`DELETE ${e}: ${await n.text()}`);return n.json()}async function se(){await x();let e=await D(),t=a.elements,n={};try{n=await ze("/Spiele",e)||{}}catch(r){console.error("Fehler beim Laden der Spiele:",r),n={}}return ae(n),ye(),new Promise(r=>{t.newGameDialogButton.onclick=async()=>{M();let i=prompt("Bitte gib einen Namen f\xFCr das neue Spiel ein:",new Date().toLocaleDateString("de-DE"));if(!i){await se();return}await P(i),r()},t.loadSelectedGameButton.onclick=async()=>{let l=t.gameSelectionList.querySelector("li.selected")?.dataset.gameId;if(!l)return;M(),a.currentGameId=l,H(n[l]?.name||""),a.cachedGameData=n[l]||{};try{let s=await ze("/Karten",e)||{};Object.values(s).forEach(p=>{p&&typeof p=="object"&&(p.normalizedName=E(p.name||""))}),a.allCards=Object.freeze(s)}catch(s){console.error("Fehler beim Laden der Kartendefinitionen:",s),a.allCards={}}let u=T(a.currentGameId,s=>{L(),C()},e);a.stopRealtime=u,await L(),await C(),r()},t.deleteSelectedGameButton.onclick=async()=>{let l=t.gameSelectionList.querySelector("li.selected")?.dataset.gameId;if(!l)return;let u=n[l]?.name??l;if(confirm(`M\xF6chtest du das Spiel "${u}" wirklich l\xF6schen?`))try{await Fe(`/Spiele/${l}`,e),delete n[l],ae(n),t.loadSelectedGameButton.disabled=!0,t.deleteSelectedGameButton.disabled=!0}catch(s){console.error("Fehler beim L\xF6schen:",s),alert("L\xF6schen fehlgeschlagen. Details in der Konsole.")}};let o=()=>{M(),r()};t.cancelGameSelectionButton.onclick=o,t.gameSelectionBackdrop.onclick=i=>{i.target===t.gameSelectionBackdrop&&o()}})}async function Ne(){try{if(await se(),a.currentGameId){let e=T(a.currentGameId,t=>{L(),C()},a.idToken);return a.stopRealtime=e,e}document.body.innerHTML="<p style='text-align:center;margin-top:2rem;'>Seite neu laden, um Spiel zu starten</p>"}catch(e){console.error("Fehler bei der App-Initialisierung:",e)}}function $e({state:e}){if(!e)return;let t=e.selectedCardId;Object.defineProperty(e,"selectedCardId",{configurable:!0,get(){return t},set(n){if(!Object.is(t,n)){console.log("%c[DBG] selectedCardId:","color:#8e44ad",t,"\u2192",n);try{console.trace("[DBG] setter stack")}catch{}}t=n}}),window.DEBUG=window.DEBUG||{},window.DEBUG.log=(...n)=>console.log("%c[DBG]","color:#2c3e50",...n),window.DEBUG.mark=n=>performance.mark(n),window.DEBUG.measure=(n,r,o)=>{try{performance.measure(n,r,o);let i=performance.getEntriesByName(n).pop();i&&console.log("%c[DBG] measure","color:#16a085",n,i.duration.toFixed(2)+"ms")}catch{}}}$e({state:a});async function He(){console.log("[boot] bundle geladen"),Ge(),pe();let e=Ne();try{xe(),Le(),await L();let t=await P();a.stopRealtime=T(t,n=>{}),window.addEventListener("beforeunload",Te)}catch(t){console.error("Startup-Fehler:",t)}}document.addEventListener("DOMContentLoaded",()=>{console.log("[boot] DOMContentLoaded"),He().catch(e=>console.error("Startup-Fehler:",e))});})();
+</script>
+</body>
+</html>
